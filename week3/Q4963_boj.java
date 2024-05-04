@@ -59,7 +59,5 @@ public class Q4963_boj {
             if(//새로운 좌표값이 배열 안에 있거나, 방문하지 않앗을때){
             DFS(newX, newY);
         }
-
     }
-}
 }
