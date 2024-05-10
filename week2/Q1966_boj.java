@@ -9,7 +9,7 @@ import java.util.StringTokenizer;
 
 public class Q1966_boj {
     public static void main(String[] args) throws IOException{
-        
+
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
         StringTokenizer st;
@@ -23,14 +23,14 @@ public class Q1966_boj {
             int size = Integer.parseInt(st.nextToken());
             int imp = Integer.parseInt(st.nextToken());
             st = new StringTokenizer(br.readLine());
-            
+
             for(int j=0;j<size;j++){
                 queue.add(new int[]{j,Integer.parseInt(st.nextToken())});
             }
 
             while(!queue.isEmpty()){
                 int[] front = queue.pollFirst();
-                boolean ismax = 
+                boolean ismax =
                 for(int k=0;k<queue.size();k++){
                     if(front[1]<queue.get(k)[1]){
                         for(int l=0;l<k;l++){
